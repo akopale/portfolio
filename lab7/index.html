@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+  <title>Amy's Portfolio</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../css/2-col-portfolio.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/leaflet.css">
+  <link rel="stylesheet" href="css/d3.parcoords.css">
+
+  <script src="js/d3_made.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script src="js/d3.parcoords.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../other/resume.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:amykopale@gmail.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Header -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="my-4">Coordinated Views for analyzing multivariate relationships
+        </h1>
+
+        <p>Below is a map showing how demographic variables change by different departments in Haiti. Under the map is a chart showing how the variables relate to each othe. For example, you can see that departments that have higher literacy and secondary education rates for women also tend to have lower infant mortality rates and total fertility rates. </p>
+
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+          <div id="legend" class="col-md-6 portfolio-item"> </div>
+          <div id="info-label" class="col-md-6 portfolio-item"> </div>
+      </div>
+
+      <!-- /.row -->
+      <!-- Projects Row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-md-12 portfolio-item">
+            <div id="map"/>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- /.row -->
+      <!-- Projects Row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-md-12 portfolio-item">
+            <div id="pcp" class="parcoords"/>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- /.row -->
+      <!-- Projects Row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-md-12 portfolio-item">
+            <p> Where "InfantMo" is infant mortality rate, "2_ed" is the percentage of women receiving a secondary education or higher, "w_lit" is the percent of literate women, and "TFR" is totally fertility rate. The column titled "DHSREGEN" has the names of the various departments.
+          </p>
+        </div>
+      </div>
+            <!-- /.row -->
+
+            <!-- Footer -->
+            <footer class="py-5 bg-dark">
+              <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; A Kopale 2018</p>
+              </div>
+              <!-- /.container -->
+            </footer>
+
+            <!-- Bootstrap core JavaScript -->
+            <script src="../vendor/jquery/jquery.min.js"></script>
+            <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+          </body>
+
+        </html>
